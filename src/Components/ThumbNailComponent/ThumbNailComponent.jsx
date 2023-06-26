@@ -13,7 +13,7 @@ function ThumbNailComponent({imageItem}) {
     <div className='card'>
         <div className='text-container'>
             <img src={imageItem.filePath} alt={imageItem.filename}/>
-            <button onClick={toggleModal}>Play</button>
+            <button class='Play-btn' onClick={toggleModal}>Play</button>
 
             {modal && 
                 (

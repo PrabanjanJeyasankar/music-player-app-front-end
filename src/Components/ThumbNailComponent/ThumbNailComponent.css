@@ -8,6 +8,9 @@ body.active-modal {
     font-size: 18px;
 }
 
+.play-btn{
+    background-color:#f1f1f1
+}
 
 .modal, .overlay {
     width: 100vw;
