@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import FileUploadComponent from './Components/FileUploadComponent/FileUploadComponent';
-// import SongGalleryComponent from './Components/SongGalleryComponent/SongGalleryComponent';
+import SongGalleryComponent from './Components/SongGalleryComponent/SongGalleryComponent';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Link to='/admin/upload'>Add Songs</Link>
         </nav>
         <Routes>
-          {/* <Route exact path='/' element={<SongGalleryComponent />} /> */}
+          <Route exact path='/' element={<SongGalleryComponent />} />
           <Route path='/admin/upload' element={<FileUploadComponent />} />
         </Routes>
       </div>
